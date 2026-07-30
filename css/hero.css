@@ -1,4 +1,6 @@
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
   padding-bottom: 180px;
   padding-top: 235px;
   background-image: url(../images/hero.jpg);
