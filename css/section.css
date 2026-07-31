@@ -13,3 +13,12 @@
   text-align: left;
   width: 537px;
 }
+
+.section-subtitle {
+  width: 571px;
+  margin: 0 auto 75px;
+  line-height: 1.28571;
+  text-align: center;
+
+  color: rgb(251 251 251 / 0.4);
+}

@@ -1,0 +1,23 @@
+.social {
+  display: flex;
+  gap: 8px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+
+  color: #1b414b;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #062730;
+}
+
+.social-link svg {
+  fill: currentColor;
+}
