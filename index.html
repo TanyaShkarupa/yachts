@@ -282,9 +282,38 @@
           />
           <div class="form-wrap">
             <h3 class="section-title rent-section-title">Rent a yacht now</h3>
-            <div class="rent-section-form">Full name</div>
+            <form>
+              <div class="rent-section-container">
+                <input
+                  class="form-input"
+                  type="text"
+                  name="user name"
+                  placeholder="Full name"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="email"
+                  name="user email"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="user tel"
+                  placeholder="tel"
+                  required
+                />
+                <textarea
+                  class="form-texterea"
+                  name="Comment"
+                  placeholder="Comment"
+                ></textarea>
+              </div>
+            </form>
 
-            <button class="rent-section-btn">Send</button>
+            <button type="submit" class="rent-section-btn">Send</button>
           </div>
         </div>
       </section>

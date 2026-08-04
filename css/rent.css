@@ -17,8 +17,12 @@
   margin-bottom: 50px;
 }
 
-.rent-section-form {
-  border: 1px solid rgba(251, 251, 251, 0.2);
+.rent-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  /*border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding-block: 18px;
   padding-inline: 18px 388px;
@@ -26,6 +30,38 @@
   height: 54px;
   /*width: 472px;
   height: 323px;*/
+}
+
+.form-input {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+
+  line-height: 1.28571;
+  color: rgba(251, 251, 251, 0.4);
+
+  padding: 18px;
+
+  background-color: transparent;
+  color: #fbfbfb;
+}
+
+.form-input::placeholder {
+  color: #fbfbfb33;
+}
+
+.form-texterea {
+  height: 116px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  padding: 18px;
+  background-color: transparent;
+  resize: none;
+  line-height: 1.28571;
+}
+
+.form-texterea::placeholder {
+  color: #fbfbfb66;
 }
 
 .rent-section-btn {
